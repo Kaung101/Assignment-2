@@ -1,0 +1,34 @@
+body{ /*making relative position to the body to move outer box center*/
+    position: relative;
+    height: 350px;
+}
+.div1{ /*outer box*/
+    width: 450px;
+    background: rgb(245, 239, 239);
+    position: absolute;
+    overflow: auto;
+    top: 50%;
+    left: 30%;
+    padding: 20px 20px 35px 20px;
+    box-sizing: border-box;
+}
+.div1, img{
+    border: 1px solid black;
+}
+img{
+    float: left;
+    width: 150px;
+    height: 140px;
+}
+.div2{ /*Making personal info text to right*/
+    float: right;
+    padding-right: 40px;
+}
+.header-text{ /*Name text to make the size of the font larger*/
+    font-size: 30px;
+    margin-top: 0;
+}
+.small-text{
+    line-height: 4px;
+    font-size: 18px;
+}
